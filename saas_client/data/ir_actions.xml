@@ -7,7 +7,6 @@
     <!-- The User must be a member of the base.group_system (Settings) group to run todoes -->
     <record id="saas_action_run_ir_action_todo" model="ir.actions.server">
         <field name="name">SaaS Run Remaining Action Todo</field>
-        <field name="condition">True</field>
         <field name="type">ir.actions.server</field>
         <field name="model_id" ref="base.model_res_config"/>
         <field name="state">code</field>
