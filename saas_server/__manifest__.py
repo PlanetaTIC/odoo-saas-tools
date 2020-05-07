@@ -20,5 +20,5 @@
         'data/pre_install.xml',
         'security/ir.model.access.csv',
     ],
-    'installable': True,
+    'installable': False,
 }

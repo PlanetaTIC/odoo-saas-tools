@@ -8,5 +8,5 @@
     'website': 'https://it-projects.info',
     'depends': [],
     'data': [],
-    'installable': True,
+    'installable': False,
 }
