@@ -4,6 +4,7 @@ from odoo import models
 
 class SaasClient(models.AbstractModel):
     _name = 'saas_base.client'
+    _description = 'saas_base.client'
 
     users_len = fields.Integer('Count users', readonly=True)
     max_users = fields.Char('Max users allowed', readonly=True)
