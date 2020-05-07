@@ -45,7 +45,6 @@ class SaasPortalConfigWizard(models.TransientModel):
         string='Passphrase for RSA key',
         help='''Passphrase used when rsa key was generated''')
 
-    @api.multi
     def set_values(self):
         super(SaasPortalConfigWizard, self).set_values()
         ICPSudo = self.env['ir.config_parameter'].sudo()
